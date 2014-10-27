@@ -1,7 +1,7 @@
 'use strict';
 
 var parseJs = require('./lib/parse-js');
-var transform = require('./lib/transform');
+var transform = require('./lib/transform').transform;
 
 /**
  * Парсит строку, возвращает синтаксическое дерево.
