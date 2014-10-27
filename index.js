@@ -14,5 +14,6 @@ var transform = require('./lib/transform');
  * @return {Object}
  */
 module.exports = function (string, options) {
+    options = options || {};
     return transform(parseJs(string), options);
 };
