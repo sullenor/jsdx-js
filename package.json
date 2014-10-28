@@ -24,5 +24,9 @@
   "homepage": "https://github.com/sullenor/jsdx-js",
   "dependencies": {
     "esprima": "^1.2.2"
+  },
+  "devDependencies": {
+    "expect": "^0.1.1",
+    "mocha": "^2.0.1"
   }
 }
